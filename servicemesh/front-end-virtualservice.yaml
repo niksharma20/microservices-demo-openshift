@@ -4,7 +4,7 @@ metadata:
   name: front-end-virtualservice
 spec:
   hosts:
-    - http://front-end-sock-shop.apps.j2blk4r4.eastus.aroapp.io
+    - front-end-sock-shop.apps.j2blk4r4.eastus.aroapp.io
   gateways:
     - sock-shop-wildcard-gateway
   http:
