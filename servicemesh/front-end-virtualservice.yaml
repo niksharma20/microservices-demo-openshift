@@ -4,9 +4,9 @@ metadata:
   name: front-end-virtualservice
 spec:
   hosts:
-    - front-end-userX-sockshop.apps.cluster-6a92.6a92.sandbox595.opentlc.com
+    - http://front-end-sock-shop.apps.j2blk4r4.eastus.aroapp.io
   gateways:
-    - sockshop-wildcard-gateway
+    - sock-shop-wildcard-gateway
   http:
   - match:
     - uri:
@@ -15,4 +15,4 @@ spec:
     - destination:
         port:
           number: 80
-        host: front-end.userX-sockshop.svc.cluster.local
+        host: front-end.sock-shop.svc.cluster.local
