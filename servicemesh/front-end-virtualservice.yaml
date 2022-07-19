@@ -4,9 +4,9 @@ metadata:
   name: front-end-virtualservice
 spec:
   hosts:
-    - front-end-sock-shop.apps.j2blk4r4.eastus.aroapp.io
+    - front-end-nikhil-sockshop.apps.y5mq62ua.eastus.aroapp.io
   gateways:
-    - sock-shop-wildcard-gateway
+    - sockshop-wildcard-gateway
   http:
   - match:
     - uri:
@@ -15,4 +15,4 @@ spec:
     - destination:
         port:
           number: 80
-        host: front-end.sock-shop.svc.cluster.local
+        host: front-end.nikhil-sockshop.svc.cluster.local
