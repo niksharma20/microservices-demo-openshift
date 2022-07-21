@@ -11,4 +11,4 @@ spec:
       name: http
       protocol: HTTP
     hosts:
-    - "*.apps.y5mq62ua.eastus.aroapp.io"
+    - "*.apps.gvtbmodu.eastus.aroapp.io"
