@@ -4,7 +4,7 @@ metadata:
   name: front-end-virtualservice
 spec:
   hosts:
-    - front-end-nikhil-sockshop.apps.y5mq62ua.eastus.aroapp.io
+    - front-end-nikhil-sockshop.apps.gvtbmodu.eastus.aroapp.io
   gateways:
     - sockshop-wildcard-gateway
   http:
