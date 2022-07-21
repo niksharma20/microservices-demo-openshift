@@ -7,7 +7,7 @@ metadata:
     app: front-end-service
   name: front-end-service-gateway
 spec:
-  host: front-end-nikhil-sockshop.apps.y5mq62ua.eastus.aroapp.io
+  host: front-end-nikhil-sockshop.apps.gvtbmodu.eastus.aroapp.io
   port:
     targetPort: 8080
   to:
